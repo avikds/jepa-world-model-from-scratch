@@ -49,16 +49,6 @@ python scaffold.py
 - [x] **37.** evaluate_planner
 - [x] **38.** jepa_world_model_experiment
 
-## Results
+---
 
-```
-transitions: 512 | obs shape: (512, 1, 6, 6)
-collapse metric BEFORE training: 0.035  (near 0 = collapsed)
-JEPA loss: 0.964 -> 0.814
-collapse metric AFTER training:  1.086  (target std is 1.0)
-5-step latent prediction MSE (trained): 1.180
-  (an untrained, collapsed encoder scores ~0 here -- trivially easy and useless)
-linear probe on agent position: mean abs error = 0.56 cells (room is 6x6)
-MPC planner:   success 70%, mean final distance 1.14
-random policy: success 40%
-```
+Built on Deep-ML.
